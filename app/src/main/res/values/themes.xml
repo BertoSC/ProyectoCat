@@ -4,8 +4,10 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/creme</item>
-        <item name="android:fontFamily">@font/amaticregular</item>
+        <item name="colorOnPrimary">@color/black</item>
+
     </style>
+
 
     <style name="Theme.Proyecto_UF1" parent="Base.Theme.Proyecto_UF1" />
 </resources>

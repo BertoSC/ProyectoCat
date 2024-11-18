@@ -8,16 +8,28 @@
     <fragment
         android:id="@+id/principalFragment"
         android:name="com.example.proyecto_uf1.PrincipalFragment"
-        android:label="fragment_principal"
-        tools:layout="@layout/fragment_principal" />
+        android:label=""
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principalFragment_to_diarioFragment"
+            app:destination="@id/diarioFragment" />
+    </fragment>
     <fragment
         android:id="@+id/diarioFragment"
         android:name="com.example.proyecto_uf1.DiarioFragment"
-        android:label="fragment_diario"
-        tools:layout="@layout/fragment_diario" />
+        android:label=""
+        tools:layout="@layout/fragment_diario" >
+        <action
+            android:id="@+id/action_diarioFragment_to_addEntradaFragment"
+            app:destination="@id/addEntradaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addEntradaFragment"
         android:name="com.example.proyecto_uf1.AddEntradaFragment"
-        android:label="fragment_add_entrada"
-        tools:layout="@layout/fragment_add_entrada" />
+        android:label=""
+        tools:layout="@layout/fragment_add_entrada" >
+        <action
+            android:id="@+id/action_addEntradaFragment_to_diarioFragment"
+            app:destination="@id/diarioFragment" />
+    </fragment>
 </navigation>

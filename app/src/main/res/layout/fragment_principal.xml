@@ -86,6 +86,7 @@
                 android:text="by BertoSC"
                 android:textSize="40sp"
                 android:layout_gravity="center"
+                android:fontFamily="@font/amaticregular"
                 android:layout_marginBottom="10dp"
                 />
         </LinearLayout>

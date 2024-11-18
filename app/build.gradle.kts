@@ -43,6 +43,7 @@ android {
 dependencies {
     implementation ("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.4")
     implementation ("androidx.fragment:fragment-ktx:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2")
