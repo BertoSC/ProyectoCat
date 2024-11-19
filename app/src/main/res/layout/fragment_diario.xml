@@ -53,9 +53,11 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"/>
 
-        <!-- ShapeableImageView flotante -->
+        <!-- ShapeableImageView flotante
+         app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"-->
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/my_fab_image"
             android:layout_width="70dp"
@@ -64,7 +66,7 @@
             android:layout_margin="16dp"
             android:src="@drawable/iconopata"
             app:shapeAppearanceOverlay="@style/CircularShape"
-            app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"/>
+            />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
